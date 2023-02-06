@@ -1,0 +1,90 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+*{font-family:"Roboto", Arial!important;}
+*, *:before, *:after {box-sizing: inherit;}
+body{background-color:#f1f1f1;}
+.topo{height: 180px; background-color:#4d525d;}
+.wrapper{width:1100px;margin: 0 auto;}
+.left{width: 50%;float: left;}
+.right{width: 50%;float: right;overflow: hidden;border-left: 1px dotted #999;}
+.container{width:960px;margin: 0 auto;padding:30px;overflow: hidden;}
+.ident{float: left;color: #fff;margin: 50px 0;}
+.ident h1{font-size: 45px;font-family: Arial;}
+.ident h3{font-size: 24px;color: #edad4d;text-transform: uppercase;width: 40%;border-bottom: 2px solid #95fb0d;padding: 5px 0 5px 0;font-family: arial;}
+section .wrapper{background-color: #fff;overflow: hidden;}
+.pginicial{background:#fff;padding:10px 0 5px 0;}
+
+.frmClientes{width: 50%;margin: 0 auto;}
+.frmClientes fieldset{border-bottom: 1px solid #ddd;padding:10px 0;}
+.frmClientes fieldset input{height:30px;padding: 5px;}
+.frmClientes fieldset textarea{text-indent:5px}
+.frmClientes fieldset textarea, input{border-radius:8px;border: 1px solid #83aeda;padding: 5px 0;}
+.frmClientes fieldset label{float: left;width: 80px;}
+.frmClientes .fdNome input{width:400px;}
+.frmClientes .fdEndereco textarea{width: 250px;}
+.frmClientes .fdSalario input{width:60px;}
+
+.info .msg{text-align: center;margin: 10px 0 30px 0;font-weight: bold;border-bottom: 1px solid #ddd;padding-bottom: 15px;}
+
+.navegacao .menu ul{overflow: hidden;border: 1px solid #ddd;background:#ddd;}
+.navegacao .menu ul > li{padding: 10px;float: left;background: #eee;}
+.navegacao .menu ul > li+li{border-left: 1px solid #ddd;}
+.navegacao .menu ul > li a{text-decoration: none;text-transform: uppercase;font-size: 15px;color: #000;font-weight: bold;}
+.navegacao .menu ul > li a:hover{color:#555;}
+
+.tblista{width:100%;    margin-bottom: 50px;}
+.tblista thead{font-weight: bold;font-size: 14px;text-align: left;line-height: 35px;border-bottom: 1px solid #999;}
+.tblista .linha > td{padding: 5px 0;border-bottom: 1px solid #ddd;}
+.tblista .acao .btnEditar{font-size: 0;background: url(editar.png);display: inline-block;width: 25px;height: 25px;}
+.tblista .acao .btnExcluir{font-size: 0;background: url(excluir.png);display: inline-block;width: 25px;height: 25px;margin-left: 10px;}
+
+
+.linha-par{background-color: #ADD8E6;}
+.linha-impar{background-color: #f4f4f4;}
+
+
+.erro{color:red;font-size: 16px;font-weight: bold;text-align: center;}
+#resultado{padding: 20px 0;margin-top: 20px;border-top: 1px solid #ddd;}
+.loader{display: none;position:fixed;top:50%;left:50%;margin-top:-60px;margin-left:-60px;}
+.box{position:relative;}
